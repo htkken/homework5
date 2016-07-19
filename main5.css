@@ -2,6 +2,7 @@
     width: 100%;
     height: 700px;
     background: url(th2.jpg);
+        background-size: contain;
 }
 
 .plan1 {
@@ -9,9 +10,10 @@
     width: 350px;
     height: 250px;
     color: black;
-    margin-top:35px;
+    margin-top:32px;
     font-size: 35px;
-    
+    line-height: 40px;
+ 
 }
 
 .gray-bg {
@@ -35,8 +37,12 @@
 
 .free {
     border: #ddd8d8 solid 2px ;
-    padding-right: 0px;
-    padding-left: 0px;
+       width:200px;
+    margin-right:auto;
+    margin-left: auto;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    
 }
 .title{
     margin-top: 25px;
